@@ -12,8 +12,24 @@
     float: right;
 }
 
+.style_red {
+    color: #c81623
+}
+
 /* 快捷导航模块 */
 .shortcut {
     height: 31px;
+    line-height: 31px;
     background: #f1f1f1
+}
+
+.shortcut li {
+    float: left;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    margin: 9px 15px 0;
+    width: 1px;
+    height: 13px;
+    background: #666
 }
