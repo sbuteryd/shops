@@ -90,4 +90,7 @@
     width: 186px;
     height: 61px;
     background: url('../images/Logo.png') no-repeat;
+    /* font-size: 0; */
+    text-indent: -9999px;
+    overflow: hidden;
 }
