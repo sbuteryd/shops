@@ -104,3 +104,19 @@
     height: 36px;
     border: 2px solid #b1191a;
 }
+
+.search input {
+    float: left;
+    padding-left: 10px;
+    width: 454px;
+    height: 32px;
+}
+
+.search button {
+    float: left;
+    width: 80px;
+    height: 32px;
+    background: #b1191a;
+    font-size: 16px;
+    color: #fff
+}
