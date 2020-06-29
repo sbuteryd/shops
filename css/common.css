@@ -94,3 +94,13 @@
     text-indent: -9999px;
     overflow: hidden;
 }
+
+/* search */
+.search {
+    position: absolute;
+    left: 346px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
