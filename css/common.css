@@ -74,7 +74,6 @@
 .header {
     position: relative;
     height: 105px;
-    background: pink;
 }
 
 .logo {
@@ -82,7 +81,6 @@
     top: 25px;
     width: 186px;
     height: 61px;
-    background: skyblue
 }
 
 .logo a {
@@ -156,4 +154,16 @@
     margin-left: 10px;
     font-family: 'icomoon';
     content: '\e902'
+}
+
+.count {
+    position: absolute;
+    top: -5px;
+    left: 105px;
+    border-radius: 7px 7px 7px 0;
+    padding: 0 5px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    background: #e60012
 }
