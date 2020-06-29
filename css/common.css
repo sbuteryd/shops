@@ -72,6 +72,22 @@
 
 /* 头部制作*/
 .header {
+    position: relative;
     height: 105px;
     background: pink;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 186px;
+    height: 61px;
+    background: skyblue
+}
+
+.logo a {
+    display: block;
+    width: 186px;
+    height: 61px;
+    background: url('../images/Logo.png') no-repeat;
 }
