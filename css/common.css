@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?jl5au0');
-    src: url('../fonts/icomoon.eot?jl5au0#iefix') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf?jl5au0') format('truetype'),
-        url('../fonts/icomoon.woff?jl5au0') format('woff'),
-        url('../fonts/icomoon.svg?jl5au0#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?s8v9wf');
+    src: url('../fonts/icomoon.eot?s8v9wf#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?s8v9wf') format('truetype'),
+        url('../fonts/icomoon.woff?s8v9wf') format('woff'),
+        url('../fonts/icomoon.svg?s8v9wf#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -130,4 +130,30 @@
 
 .hotwords a {
     margin: 0 10px;
+}
+
+/* shopcar 开始 */
+.shopcar {
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    border: 1px solid #dfdfdf;
+    width: 140px;
+    height: 35px;
+    background: #f7f7f7;
+    line-height: 35px;
+    text-align: center;
+}
+
+.shopcar::before {
+    margin-right: 5px;
+    font-family: 'icomoon';
+    content: '\e93a';
+    color: #b1191a
+}
+
+.shopcar::after {
+    margin-left: 10px;
+    font-family: 'icomoon';
+    content: '\e902'
 }
