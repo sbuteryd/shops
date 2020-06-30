@@ -249,5 +249,33 @@
 .footer {
     padding-top: 30px;
     height: 415px;
-    background: pink;
+    background: #f5f5f5;
+}
+
+.mod_service {
+    border-bottom: 1px solid gainsboro;
+    height: 80px;
+}
+
+.mod_service ul li {
+    float: left;
+    padding-left: 35px;
+    width: 300px;
+    height: 50px;
+}
+
+.mod_service ul li h5 {
+    float: left;
+    margin-right: 8px;
+    width: 50px;
+    height: 50px;
+    background: url('../images//icons.png') -252px -3px no-repeat
+}
+
+.service_text h4 {
+    font-size: 14px;
+}
+
+.service_text p {
+    font-size: 12px;
 }
