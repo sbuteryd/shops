@@ -16,5 +16,19 @@
     float: right;
     width: 250px;
     height: 455px;
-    background: skyblue
+}
+
+
+.news {
+    height: 165px;
+    background: pink;
+}
+
+.lifeservice {
+    height: 209px;
+    background: purple
+}
+
+.bargain {
+    margin-top: 5px;
 }
