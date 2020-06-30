@@ -190,6 +190,7 @@
 }
 
 .dropdown .dd {
+    margin-top: 2px;
     width: 210px;
     height: 467px;
     background: #c81623;
@@ -228,4 +229,17 @@
 
 .dropdown .dd ul li:hover a {
     color: #c81623;
+}
+
+/* navitems */
+.navitems ul li {
+    float: left;
+}
+
+.navitems ul li a {
+    display: block;
+    padding: 0 25px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px
 }
