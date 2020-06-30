@@ -167,3 +167,13 @@
     color: #fff;
     background: #e60012
 }
+/*nav*/
+.nav {
+    height: 47px;
+    border-bottom:2px solid #b1191a;
+}
+.nav .dropdown {
+    width: 210px;
+    height: 45px;
+    background: #b1191a
+}
