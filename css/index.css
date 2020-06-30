@@ -90,8 +90,13 @@
 }
 
 /* 推荐模块 */
+.recom_w {
+    overflow: hidden;
+}
+
 .recom {
     margin-top: 12px;
+    width: 1205px;
     height: 163px;
     background: pink;
 }
@@ -102,4 +107,8 @@
     height: 163px;
     background: #5c5251;
     text-align: center;
+}
+
+.recom_bd ul li {
+    float: left;
 }
