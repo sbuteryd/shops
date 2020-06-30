@@ -41,7 +41,16 @@
     width: 63px;
     height: 71px;
     border-right: 1px solid #e4e4e4;
-    border-bottom: 1px solid #e4e4e4
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    margin-top: 12px;
+    width: 24px;
+    height: 28px;
+    background: url('../images/icons.png') -19px -15px
 }
 
 .bargain {
@@ -74,5 +83,8 @@
 
 .news-bd ul li {
     height: 24px;
-    line-height: 24px
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
