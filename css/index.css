@@ -32,3 +32,24 @@
 .bargain {
     margin-top: 5px;
 }
+
+.news-hd {
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+    height: 33px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news-hd a {
+    float: right;
+}
+
+.news-hd .more::after {
+    font-family: 'icomoon';
+    content: "\e902"
+
+}
