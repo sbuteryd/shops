@@ -167,11 +167,13 @@
     color: #fff;
     background: #e60012
 }
+
 /*nav*/
 .nav {
     height: 47px;
-    border-bottom:2px solid #b1191a;
+    border-bottom: 2px solid #b1191a;
 }
+
 .nav .dropdown {
     width: 210px;
     height: 45px;
@@ -186,12 +188,15 @@
     font-size: 16px;
     color: #fff;
 }
+
 .dropdown .dd {
     width: 210px;
-    height: 460px;
+    height: 467px;
     background: #c81623;
 }
+
 .dropdown .dd ul li {
+    position: relative;
     margin-left: 2px;
     padding-left: 10px;
     height: 31px;
@@ -199,6 +204,18 @@
     color: #fff;
 
 }
+
+.dropdown .dd ul li::after {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    font-size: 14px;
+    font-family: 'icomoon';
+    content: '\e902'
+}
+
+
+
 .dropdown .dd ul li:hover {
     color: #c81623;
     background: #fff;
@@ -208,6 +225,7 @@
     font-size: 14px;
     color: #fff;
 }
+
 .dropdown .dd ul li:hover a {
-    color:#c81623 ;
+    color: #c81623;
 }
