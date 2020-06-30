@@ -190,6 +190,7 @@
 }
 
 .dropdown .dd {
+    display: none;
     margin-top: 2px;
     width: 210px;
     height: 467px;
@@ -242,4 +243,11 @@
     height: 45px;
     line-height: 45px;
     font-size: 16px
+}
+
+/* footer 底部模块制作 */
+.footer {
+    padding-top: 30px;
+    height: 415px;
+    background: pink;
 }
