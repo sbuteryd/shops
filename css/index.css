@@ -88,3 +88,18 @@
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+
+/* 推荐模块 */
+.recom {
+    margin-top: 12px;
+    height: 163px;
+    background: pink;
+}
+
+.recom_hd {
+    padding-top: 30px;
+    width: 205px;
+    height: 163px;
+    background: #5c5251;
+    text-align: center;
+}
