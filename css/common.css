@@ -279,3 +279,25 @@
 .service_text p {
     font-size: 12px;
 }
+
+.md_help {
+    padding-top: 20px;
+    padding-left: 50px;
+    height: 185px;
+    border-bottom: 1px solid #ccc
+}
+
+.md_help dl {
+    float: left;
+    width: 200px;
+}
+
+.md_help dl:last-child {
+    width: 90px;
+    text-align: center
+}
+
+.md_help dt {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
