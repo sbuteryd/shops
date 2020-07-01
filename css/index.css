@@ -103,7 +103,7 @@
 
 .recom_hd {
     padding-top: 30px;
-    width: 205px;
+    width: 208px;
     height: 163px;
     background: #5c5251;
     text-align: center;
@@ -111,7 +111,7 @@
 
 .recom_bd ul li {
     position: relative;
-    float: left;
+    float: right;
 }
 
 .recom_bd ul li:nth-child(-n+3)::after {
@@ -123,6 +123,7 @@
     height: 145px;
     background: #ddd;
 }
+
 .recom_bd ul li img {
     width: 248px;
     height: 163px;
@@ -133,19 +134,24 @@
     border-bottom: 2px solid #c81623;
     height: 30px;
 }
+
 .box_hd h3 {
+    float: left;
     font-size: 18px;
     font-weight: 400;
-    color:#c81623 ;
+    color: #c81623;
 }
+
 .tab_list {
     float: right;
     line-height: 30px;
 }
+
 .tab_list ul li {
     float: left;
 
 }
+
 .tab_list ul li a {
-    margin:0 15px
+    margin: 0 15px
 }
