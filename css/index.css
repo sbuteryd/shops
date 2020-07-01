@@ -164,3 +164,23 @@
     height: 361px;
     background: pink;
 }
+
+.tab_list_item>div {
+    float: left;
+}
+
+.col_210 {
+    width: 210px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+}
+
+.col_219 {
+    width: 219px;
+}
