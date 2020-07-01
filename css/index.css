@@ -167,10 +167,32 @@
 
 .tab_list_item>div {
     float: left;
+    height: 361px;
+
 }
 
 .col_210 {
     width: 210px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 a img {
+    padding-top: 25px;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_210 ul li {
+    margin-right: 10px;
+    border-bottom: 1px solid #ccc;
+    float: left;
+    width: 85px;
+    height: 34px;
+    text-align: center;
+    line-height: 33px
 }
 
 .col_329 {
