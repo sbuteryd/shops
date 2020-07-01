@@ -127,3 +127,25 @@
     width: 248px;
     height: 163px;
 }
+
+/*家用电器模块*/
+.box_hd {
+    border-bottom: 2px solid #c81623;
+    height: 30px;
+}
+.box_hd h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color:#c81623 ;
+}
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+.tab_list ul li {
+    float: left;
+
+}
+.tab_list ul li a {
+    margin:0 15px
+}
