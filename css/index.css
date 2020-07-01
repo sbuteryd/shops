@@ -110,5 +110,20 @@
 }
 
 .recom_bd ul li {
+    position: relative;
     float: left;
+}
+
+.recom_bd ul li:nth-child(-n+3)::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background: #ddd;
+}
+.recom_bd ul li img {
+    width: 248px;
+    height: 163px;
 }
