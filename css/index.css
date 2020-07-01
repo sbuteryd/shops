@@ -162,7 +162,7 @@
 
 .box_bd {
     height: 361px;
-    background: pink;
+    background: #fff;
 }
 
 .tab_list_item>div {
@@ -200,9 +200,16 @@
 }
 
 .col_221 {
+    border-right: 1px solid #ccc;
+
     width: 221px;
 }
 
 .col_219 {
     width: 219px;
+}
+
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
 }
