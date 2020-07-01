@@ -36,3 +36,25 @@ header {
 .login a {
     color: #c81524
 }
+
+.reg_from {
+    width: 600px;
+    background: pink;
+    margin: 50px auto 0;
+}
+
+.reg_from ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_from ul li input {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc
+}
+
+.error {
+    color: #c81524
+}
