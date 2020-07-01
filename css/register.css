@@ -39,8 +39,11 @@ header {
 
 .reg_from {
     width: 600px;
-    background: pink;
     margin: 50px auto 0;
+}
+
+.reg_from ul li {
+    margin-bottom: 20px;
 }
 
 .reg_from ul li label {
@@ -57,4 +60,21 @@ header {
 
 .error {
     color: #c81524
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url('../images/error.png') no-repeat;
+}
+
+.success {
+    color: green
+}
+
+.success_icon {
+    background: url('../images/success.png') no-repeat;
 }
