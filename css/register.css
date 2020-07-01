@@ -11,3 +11,28 @@ header {
 .logo {
     padding-top: 18px
 }
+
+.registerarea {
+    margin-top: 20px;
+    height: 522px;
+    border: 1px solid #ccc
+}
+
+.registerarea h3 {
+    border-bottom: 1px solid #ccc;
+    padding: 0 10px;
+    height: 42px;
+    background: #ececec;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 400
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.login a {
+    color: #c81524
+}
