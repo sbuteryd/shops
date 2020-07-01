@@ -155,3 +155,12 @@
 .tab_list ul li a {
     margin: 0 15px
 }
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+    background: pink;
+}
