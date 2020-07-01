@@ -6,3 +6,34 @@
     border-left: 1px solid #c81524;
     padding: 3px 0 0 14px;
 }
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list>ul li a {
+    display: block;
+    padding: 0 30px;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #181616
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 49px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: "\e900"
+
+}
