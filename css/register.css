@@ -78,3 +78,22 @@ header {
 .success_icon {
     background: url('../images/success.png') no-repeat;
 }
+
+.safe {
+    padding-left: 162px;
+}
+.safe em {
+    margin-right: 3px;
+    padding:0 12px;
+    background: pink;
+    color: #fff;
+}
+.safe .ruo {
+    background: #f31d00;
+}
+.safe .zhong {
+    background: #2fa533;
+}
+.safe .qiang {
+    background: #ff9300;
+}

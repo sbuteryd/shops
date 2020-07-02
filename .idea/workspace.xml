@@ -25,6 +25,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.register.html">
+    <configuration name="list.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/shops/list.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/shops/register.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.register.html" />
+        <item itemvalue="JavaScript Debug.list.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
@@ -48,7 +62,9 @@
       <workItem from="1593406355118" duration="90000" />
       <workItem from="1593406622912" duration="1243000" />
       <workItem from="1593509605917" duration="4000" />
-      <workItem from="1593578301092" duration="3055000" />
+      <workItem from="1593578301092" duration="3856000" />
+      <workItem from="1593583492291" duration="8000" />
+      <workItem from="1593665040066" duration="1251000" />
     </task>
     <servers />
   </component>
