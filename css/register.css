@@ -48,11 +48,12 @@ header {
 
 .reg_from ul li label {
     display: inline-block;
+    margin-right: 10px;
     width: 88px;
     text-align: right;
 }
 
-.reg_from ul li input {
+.reg_from ul li .inp {
     width: 242px;
     height: 37px;
     border: 1px solid #ccc
@@ -82,18 +83,39 @@ header {
 .safe {
     padding-left: 162px;
 }
+
 .safe em {
     margin-right: 3px;
-    padding:0 12px;
+    padding: 0 12px;
     background: pink;
     color: #fff;
 }
+
 .safe .ruo {
     background: #f31d00;
 }
+
 .safe .zhong {
     background: #2fa533;
 }
+
 .safe .qiang {
     background: #ff9300;
+}
+
+.agree {
+    padding-left: 95px;
+}
+
+.agree a {
+    color: #74bded;
+}
+
+.btn {
+    margin: 30px 0 0 95px;
+    width: 200px;
+    height: 34px;
+    background: #c81524;
+    font-size: 14px;
+    color: #fff
 }

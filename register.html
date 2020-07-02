@@ -26,29 +26,43 @@
             <h3>注册新用户 <div class="login">我有账号，去<a href="#">登陆</a></div>
             </h3>
             <div class="reg_from">
-                <ul>
-                    <li>
-                        <label for="">手机号:</label><input type="search" name="" id=""><span class="error"> <i
-                                class="error_icon"></i>
-                            手机号码格式不正确，请从新输入</span>
-                    </li>
-                    <li>
-                        <label for="">短信验证码:</label><input type="search" name="" id=""><span class="success"> <i
-                                class="success_icon"></i>
-                            短信验证码输入正确</span>
-                    </li>
-                    <li>
-                        <label for="">登录密码:</label><input type="search" name="" id=""><span class="error"> <i
-                                class="error_icon"></i>
-                            手机号码格式不正确，请从新输入</span>
-                    </li>
-                    <li class="safe">安全程度 <em class="ruo">弱</em><em class="zhong">中</em><em class="qiang">强</em></li>
-                    <li>
-                        <label for="">确认密码:</label><input type="search" name="" id=""><span class="error"> <i
-                                class="error_icon"></i>
-                            手机号码格式不正确，请从新输入</span>
-                    </li>
-                </ul>
+
+                <form action="" method="POST" role="form">
+                    <ul>
+                        <li>
+                            <label for="">手机号:</label><input class="inp" type="search" name="" id=""><span
+                                class="error"> <i class="error_icon"></i>
+                                手机号码格式不正确，请从新输入</span>
+                        </li>
+                        <li>
+                            <label for="">短信验证码:</label><input class="inp" type="search" name="" id=""><span
+                                class="success"> <i class="success_icon"></i>
+                                短信验证码输入正确</span>
+                        </li>
+                        <li>
+                            <label for="">登录密码:</label><input class="inp" type="search" name="" id=""><span
+                                class="error">
+                                <i class="error_icon"></i>
+                                手机号码格式不正确，请从新输入</span>
+                        </li>
+                        <li class="safe">安全程度 <em class="ruo">弱</em><em class="zhong">中</em><em class="qiang">强</em>
+                        </li>
+                        <li>
+                            <label for="">确认密码:</label><input class="inp" type="search" name="" id=""><span
+                                class="error">
+                                <i class="error_icon"></i>
+                                手机号码格式不正确，请从新输入</span>
+                        </li>
+                        <li class="agree"><input type="checkbox" name="" id="">
+                            同意协议并注册
+                            <a href="#">《知晓用户协议》</a>
+                        </li>
+                        <li>
+                            <input class="btn" type="submit" value="提交注册">
+                        </li>
+                    </ul>
+                </form>
+
             </div>
         </div>
         <footer>底部区域</footer>
