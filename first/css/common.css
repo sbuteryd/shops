@@ -26,26 +26,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-cheveron-down:before {
-    content: "\e900";
-}
-
-.icon-cheveron-left:before {
-    content: "\e901";
-}
-
-.icon-cheveron-right:before {
-    content: "\e902";
-}
-
-.icon-cheveron-up:before {
-    content: "\e903";
-}
-
-.icon-cart:before {
-    content: "\e93a";
-}
-
 
 .w {
     width: 1200px;
@@ -75,33 +55,20 @@
 }
 
 
-.shortcut .nav ul li {
-    position: relative;
+.shortcut ul li {
     float: left;
 }
 
-.shortcut .nav ul li a {
-    border-left: 1px solid #666666;
-    padding: 0 16px;
-    color: #666666
+.shortcut .fr ul li:nth-child(even) {
+    margin: 9px 14px 10px;
+    width: 1px;
+    height: 13px;
+    background: #666666
 }
 
-.shortcut .nav ul li:nth-child(3)::after {
-    position: absolute;
-    right: 15px;
+.shortcut .arrow-icon::after {
     font-family: 'icomoon';
-    content: "\e900";
-}
-
-.shortcut .nav ul .arrow {
-    padding-right: 15px;
-}
-
-.shortcut .nav ul .arrow::after {
-    position: absolute;
-    right: 15px;
-    font-family: 'icomoon';
-    content: "\e900";
+    content: "\e900"
 }
 
 /* 头部结束 */
