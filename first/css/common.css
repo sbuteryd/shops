@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../..fonts/icomoon.eot?s8v9wf');
+    src: url('../fonts/icomoon.eot?s8v9wf#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?s8v9wf') format('truetype'),
+        url('../fonts/icomoon.woff?s8v9wf') format('woff'),
+        url('../fonts/icomoon.svg?s8v9wf#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cheveron-down:before {
+    content: "\e900";
+}
+
+.icon-cheveron-left:before {
+    content: "\e901";
+}
+
+.icon-cheveron-right:before {
+    content: "\e902";
+}
+
+.icon-cheveron-up:before {
+    content: "\e903";
+}
+
+.icon-cart:before {
+    content: "\e93a";
+}
+
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+
+}
+
+.style-red {
+    color: #f10215
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* 头部 开始 */
+/* shortcut  开始*/
+.shortcut {
+    height: 30px;
+    line-height: 30px;
+    background: #f1f1f1;
+}
+
+
+.shortcut .nav ul li {
+    position: relative;
+    float: left;
+}
+
+.shortcut .nav ul li a {
+    border-left: 1px solid #666666;
+    padding: 0 16px;
+    color: #666666
+}
+
+.shortcut .nav ul li:nth-child(3)::after {
+    position: absolute;
+    right: 15px;
+    font-family: 'icomoon';
+    content: "\e900";
+}
+
+.shortcut .nav ul .arrow {
+    padding-right: 15px;
+}
+
+.shortcut .nav ul .arrow::after {
+    position: absolute;
+    right: 15px;
+    font-family: 'icomoon';
+    content: "\e900";
+}
+
+/* 头部结束 */
