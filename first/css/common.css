@@ -199,10 +199,9 @@ body {
 }
 
 .nav .dropdown dd {
-    display: none;
     margin-top: 2px;
     width: 209px;
-    height: 461px;
+    height: 465px;
     background: #c81623
 }
 
