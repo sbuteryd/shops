@@ -107,3 +107,36 @@
 }
 
 /* lifeserviece 结束 */
+
+/* recom_hd 开始 */
+.recom {
+    height: 164px;
+}
+
+.recom_hd {
+    float: left;
+    width: 206px;
+    height: 164px;
+    background: #5c5251;
+    line-height: 164px;
+    text-align: center;
+}
+
+.recom_bd {
+    float: left;
+    width: 994px;
+    height: 164px;
+    background: #ebebeb;
+}
+
+.recom_bd ul li {
+    float: left;
+    width: 245px;
+    height: 164px;
+}
+
+.recom_bd ul li:nth-child(-n+3) {
+    border-right: 1px solid red;
+}
+
+/* recom_hd 结束 */
