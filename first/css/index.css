@@ -131,12 +131,20 @@
 
 .recom_bd ul li {
     float: left;
+    position: relative;
     width: 245px;
     height: 164px;
 }
 
-.recom_bd ul li:nth-child(-n+3) {
-    border-right: 1px solid red;
+.recom_bd ul li:nth-child(-n+3):after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 1px;
+    height: 161px;
+    border-right: 1px solid #ccc;
 }
 
 /* recom_hd 结束 */
