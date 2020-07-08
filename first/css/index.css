@@ -148,3 +148,75 @@
 }
 
 /* recom_hd 结束 */
+
+/* 家电 start */
+.jiadian .box_hd {
+    border-bottom: 2px solid #c81623;
+    height: 30px;
+    line-height: 30px;
+}
+
+.jiadian h3 {
+    float: left;
+}
+
+.jiadian .tab_list {
+    float: right;
+}
+
+.jiadian .tab_list ul li {
+    float: left;
+}
+
+.jiadian .tab_list ul li a {
+    margin: 0 8px;
+}
+
+.box_bd {
+    height: 360px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_209 {
+    width: 209px;
+    background: #fbfbfb;
+    text-align: center;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_220 {
+    width: 220px;
+}
+
+.col_221 {
+    width: 221px;
+}
+
+.col_220 {
+    width: 220px;
+}
+
+.tab_list_item .col_209 ul {
+    padding-left: 12px;
+}
+
+.tab_list_item .col_209 ul li {
+    float: left;
+    margin-right: 10px;
+    border-bottom: 1px solid #ededed;
+    width: 86px;
+    height: 23px;
+    line-height: 23px;
+}
+
+.tab_list_item .bb {
+    display: block;
+    border-bottom: 1px solid #ededed;
+}
