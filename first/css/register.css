@@ -35,4 +35,54 @@ body {
     color: #ff0000
 }
 
+
+.regiester_area .form_area {
+    margin: 52px auto;
+    height: 375px;
+    width: 554px;
+}
+
+.form_area ul li label {
+    display: inline-block;
+    width: 83px;
+    text-align: right;
+    background: pink;
+}
+
+.form_area li {
+    margin-bottom: 20px;
+}
+
+.form_area input {
+    border: 1px solid #999999;
+    width: 242px;
+    height: 37px;
+}
+
+.form_area .error {
+    color: #df3033;
+}
+
+.success_icon,
+.error_icon {
+    display: inline-block;
+    width: 23px;
+    height: 22px;
+    vertical-align: middle;
+    line-height: 22px;
+}
+
+.error_icon {
+    background: url('../images/error.png') no-repeat;
+
+}
+
+.success {
+    color: green;
+}
+
+.success_icon {
+    background: url('../images/success.png') no-repeat
+}
+
 /* .regiester_area  end  */
