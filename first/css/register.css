@@ -46,7 +46,6 @@ body {
     display: inline-block;
     width: 83px;
     text-align: right;
-    background: pink;
 }
 
 .form_area li {
@@ -125,3 +124,21 @@ body {
 }
 
 /* .regiester_area  end  */
+
+/* mod_copyright */
+.mod_copyright {
+    text-align-last: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    margin: 0 3px;
+}
+
+.copyright {
+    line-height: 20px;
+}
