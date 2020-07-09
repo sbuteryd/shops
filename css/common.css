@@ -1,0 +1,33 @@
+.w {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/* shortcut  */
+.shortcut {
+    height: 30px;
+    line-height: 30px;
+    background: #f1f1f1;
+}
+
+.shortcut .hd {
+    float: left;
+}
+
+.shortcut .hd span {
+    color: #c81623;
+}
+
+.shortcut .bd ul {
+    float: right;
+}
+
+.shortcut .bd ul li {
+    float: left;
+}
+
+.shortcut .bd ul li a {
+    padding: 0 7px;
+}
+
+/* shortcut end */
