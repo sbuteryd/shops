@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'icomoon';
-    src: url('../..fonts/icomoon.eot?s8v9wf');
+    src: url('../fonts/icomoon.eot?s8v9wf');
     src: url('../fonts/icomoon.eot?s8v9wf#iefix') format('embedded-opentype'),
         url('../fonts/icomoon.ttf?s8v9wf') format('truetype'),
         url('../fonts/icomoon.woff?s8v9wf') format('woff'),
@@ -26,19 +26,11 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-    background: #ffffff
-}
 
+/* 版心 */
 .w {
     width: 1200px;
     margin: 0 auto;
-    /* border: 1px solid red; */
-
-}
-
-.style-red {
-    color: #f10215
 }
 
 .fl {
@@ -49,274 +41,281 @@ body {
     float: right;
 }
 
-
-/* 快捷导航  开始*/
-.shortcut {
-    height: 30px;
-    line-height: 30px;
-    background: #f1f1f1;
+.style_red {
+    color: #c81623
 }
 
+/* 快捷导航模块 */
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background: #f1f1f1
+}
 
-.shortcut ul li {
+.shortcut li {
     float: left;
 }
 
 .shortcut .fr ul li:nth-child(even) {
-    margin: 9px 14px 10px;
+    margin: 9px 15px 0;
     width: 1px;
     height: 13px;
-    background: #666666
+    background: #666
 }
 
-.shortcut .arrow-icon::after {
-    font-family: 'icomoon';
-    content: "\e900"
+.arrow-icon::after {
+    margin-left: 2px;
+    font-family: 'icomoon' !important;
+    content: "\e900";
+
 }
 
-/* 快捷导航 结束 */
-
+/* 头部制作*/
 .header {
     position: relative;
-    margin-top: 26px;
     height: 105px;
-    background: #ffffff
 }
 
-.header .logo {
+.logo {
     position: absolute;
     top: 25px;
-    width: 175px;
-    height: 56px;
+    width: 186px;
+    height: 61px;
 }
 
-.header .logo a {
+.logo a {
     display: block;
-    width: 175px;
-    height: 56px;
-    background: url('../../images/logo.png') no-repeat top center;
-    font-size: 0;
+    width: 186px;
+    height: 61px;
+    background: url('../images/Logo.png') no-repeat;
+    /* font-size: 0; */
+    text-indent: -9999px;
+    overflow: hidden;
 }
 
-.header .search {
+/* search */
+.search {
     position: absolute;
-    top: 25px;
     left: 346px;
+    top: 25px;
     width: 538px;
     height: 36px;
     border: 2px solid #b1191a;
 }
 
-.header .search input {
+.search input {
     float: left;
-    padding-left: 11px;
-    width: 456px;
+    padding-left: 10px;
+    width: 454px;
     height: 32px;
-    border: none;
-    outline: none;
 }
 
-.header .search button {
+.search button {
     float: left;
-    border: none;
-    width: 78px;
+    width: 80px;
     height: 32px;
-    color: #fff;
-    outline: none;
-    background: #b1191a
-}
-
-.header .hotwords {
-    position: absolute;
-    top: 68px;
-    left: 359px;
-}
-
-.header .hotwords ul li {
-    float: left;
-}
-
-.header .hotwords ul li a {
-    margin-right: 10px;
-}
-
-.header .shopcar {
-    position: absolute;
-    top: 25px;
-    right: 64px;
-    border: 2px solid #dfdfdf;
-    width: 140px;
-    height: 36px;
-    text-align: center;
-    line-height: 36px
-}
-
-.header .shopcar::before {
-    margin-right: 6px;
-    content: '\e93a';
-    font-family: 'icomoon';
-    color: #b1191a;
-}
-
-.header .shopcar::after {
-    position: relative;
-    top: 2px;
-    content: '\e902';
-    font-size: 14px;
-    font-family: 'icomoon';
-}
-
-.header .shopcar .count {
-    position: absolute;
-    top: -7px;
-    left: 105px;
-    height: 14px;
-    border-radius: 7px 7px 7px 0;
-    padding: 0 5px;
-    line-height: 14px;
-    color: #fff;
-    background: #ff0000
-}
-
-/* 导航 开始 */
-.nav {
-    border-bottom: 2px solid #b1191a;
-}
-
-.dropdown {
-    width: 209px;
-    height: 47px;
-}
-
-.nav .dropdown dt {
-    width: 100%;
-    height: 100%;
-    font-size: 16px;
-    line-height: 48px;
-    text-align: center;
-    color: #fff;
     background: #b1191a;
+    font-size: 16px;
+    color: #fff
 }
 
-.nav .dropdown dd {
-    margin-top: 2px;
-    width: 209px;
-    height: 465px;
-    background: #c81623
-}
-
-.nav .dropdown dd ul li {
-    position: relative;
-    display: block;
-    height: 31px;
-    line-height: 31px;
-    font-size: 14px;
-    color: #fff;
-}
-
-.nav .dropdown dd ul li a {
-    color: #fff;
-    padding-left: 12px;
-}
-
-.nav .dropdown dd ul li:hover {
-    background: #fff
-}
-
-.nav .dropdown dd ul li:hover a {
-    color: #b1191a
-}
-
-.nav .dropdown dd ul li:hover::after {
-    color: #b1191a
-}
-
-.nav .dropdown dd ul li::after {
+.hotwords {
     position: absolute;
-    top: 0;
-    right: 8px;
+    top: 66px;
+    left: 346px;
+
+}
+
+.hotwords a {
+    margin: 0 10px;
+}
+
+/* shopcar 开始 */
+.shopcar {
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    border: 1px solid #dfdfdf;
+    width: 140px;
+    height: 35px;
+    background: #f7f7f7;
+    line-height: 35px;
+    text-align: center;
+}
+
+.shopcar::before {
+    margin-right: 5px;
+    font-family: 'icomoon';
+    content: '\e93a';
+    color: #b1191a
+}
+
+.shopcar::after {
+    margin-left: 10px;
     font-family: 'icomoon';
     content: '\e902'
 }
 
-.nav .navitems {
-    float: left;
+.count {
+    position: absolute;
+    top: -5px;
+    left: 105px;
+    border-radius: 7px 7px 7px 0;
+    padding: 0 5px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    background: #e60012
 }
 
-.nav .navitems ul li {
-    float: left;
+/*nav*/
+.nav {
     height: 47px;
-    line-height: 47px;
+    border-bottom: 2px solid #b1191a;
 }
 
-.nav .navitems ul li a {
-    padding: 0 17px;
+.nav .dropdown {
+    width: 210px;
+    height: 45px;
+    background: #b1191a
+}
+
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 45px;
     font-size: 16px;
-    color: #333333
+    color: #fff;
 }
 
-/* 导航 结束 */
-/* footer 开始 */
+.dropdown .dd {
+    /* display: none; */
+    margin-top: 2px;
+    width: 210px;
+    height: 464px;
+    background: #c81623;
+}
+
+.dropdown .dd ul li {
+    position: relative;
+    margin-left: 2px;
+    padding-left: 10px;
+    height: 31px;
+    line-height: 31px;
+    color: #fff;
+
+}
+
+.dropdown .dd ul li::after {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    font-size: 14px;
+    font-family: 'icomoon';
+    content: '\e902'
+}
+
+
+
+.dropdown .dd ul li:hover {
+    color: #c81623;
+    background: #fff;
+}
+
+.dropdown .dd ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.dropdown .dd ul li:hover a {
+    color: #c81623;
+}
+
+/* navitems */
+.navitems ul li {
+    float: left;
+}
+
+.navitems ul li a {
+    display: block;
+    padding: 0 25px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px
+}
+
+/* footer 底部模块制作 */
 .footer {
-    height: 418px;
+    padding-top: 30px;
+    height: 415px;
     background: #f5f5f5;
 }
 
-
 .mod_service {
-    padding-top: 30px;
-    border-bottom: 2px solid #ededed;
-}
-
-.mod_service ul h5 {
-    float: left;
-    margin-right: 5px;
-    height: 50px;
-    width: 50px;
-    line-height: 80px;
-    background: url('../../images/icons.png') -252px -2px
+    border-bottom: 1px solid gainsboro;
+    height: 80px;
 }
 
 .mod_service ul li {
     float: left;
-    width: 240px;
-    height: 80px;
+    padding-left: 35px;
+    width: 300px;
+    height: 50px;
 }
 
-.mod_service ul li h4 {
-    line-height: 28px;
-}
-
-.mod_help {
-    border-bottom: 1px solid #ccc;
-    padding-top: 20px;
-    height: 188px;
-}
-
-.mod_help dl {
+.mod_service ul li h5 {
     float: left;
-    width: 198px;
+    margin-right: 8px;
+    width: 50px;
+    height: 50px;
+    background: url('../images//icons.png') -252px -3px no-repeat
 }
 
-.mod_help dl dt {
-    margin-bottom: 13px;
-    font-size: 16px;
-    color: #333333;
+.service_text h4 {
+    font-size: 14px;
 }
 
-.mod_help dl dd {
+.service_text p {
     font-size: 12px;
-    color: #666666;
-    line-height: 21px;
 }
 
-.mod_copyright {
-    margin-top: 18px;
+.md_help {
+    padding-top: 20px;
+    padding-left: 50px;
+    height: 185px;
+    border-bottom: 1px solid #ccc
+}
+
+.md_help dl {
+    float: left;
+    width: 200px;
+}
+
+.md_help dl:last-child {
+    width: 90px;
     text-align: center
 }
 
-.mod_copyright .links {
-    margin-bottom: 9px;
+.md_help dt {
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
-/* footer 结束 */
+/* mod_copyright */
+.mod_copyright {
+    text-align-last: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    margin: 0 3px;
+}
+
+.copyright {
+    line-height: 20px;
+}

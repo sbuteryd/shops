@@ -1,0 +1,41 @@
+.sk {
+    position: absolute;
+    left: 207px;
+    top: 41px;
+    width: 56px;
+    padding-left: 17px;
+    border-left: 1px solid red;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+    padding: 0 28.5px;
+    height: 47px;
+    line-height: 47px;
+}
+
+.nav .sk_list ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.nav .sk_content {
+    float: left;
+}
+
+.nav .sk_content ul li {
+    float: left;
+    padding: 0 23px;
+    height: 47px;
+    line-height: 47px;
+}
+
+.nav .sk_content ul li a {
+    font-size: 14px;
+    color: #666666;
+}
