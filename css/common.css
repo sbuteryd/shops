@@ -3,6 +3,18 @@
     width: 1200px;
 }
 
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.style_red {
+    color: #c81623
+}
+
 /* shortcut  */
 .shortcut {
     height: 30px;
@@ -10,17 +22,11 @@
     background: #f1f1f1;
 }
 
-.shortcut .hd {
+
+.shortcut .hd ul li {
     float: left;
 }
 
-.shortcut .hd span {
-    color: #c81623;
-}
-
-.shortcut .bd ul {
-    float: right;
-}
 
 .shortcut .bd ul li {
     float: left;
