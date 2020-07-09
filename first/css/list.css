@@ -39,3 +39,22 @@
     font-size: 14px;
     color: #666666;
 }
+
+/* sk_bd */
+.sk_bd ul li {
+    float: left;
+    margin-right: 12px;
+    width: 291px;
+    height: 461px;
+    overflow: hidden;
+    background: pink;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid red;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
