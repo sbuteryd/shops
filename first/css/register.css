@@ -53,7 +53,7 @@ body {
     margin-bottom: 20px;
 }
 
-.form_area input {
+.form_area .inp {
     border: 1px solid #999999;
     width: 242px;
     height: 37px;
@@ -106,6 +106,22 @@ body {
 
 .qaing {
     background: #f79100
+}
+
+.agree {
+    padding-left: 88px;
+}
+
+.agree a {
+    color: #1ba1e6
+}
+
+.sub_mit input {
+    margin-left: 96px;
+    width: 201px;
+    height: 35px;
+    color: #fff;
+    background: #c81623;
 }
 
 /* .regiester_area  end  */
