@@ -85,4 +85,27 @@ body {
     background: url('../images/success.png') no-repeat
 }
 
+.save {
+    padding-left: 174px;
+}
+
+.ruo,
+.zhong,
+.qaing {
+    color: #fff;
+    padding: 0 10px;
+}
+
+.ruo {
+    background: #de1111;
+}
+
+.zhong {
+    background: #40b83f;
+}
+
+.qaing {
+    background: #f79100
+}
+
 /* .regiester_area  end  */
