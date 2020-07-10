@@ -91,7 +91,7 @@
 .header {
     position: relative;
     margin-top: 24px;
-    height: 82px;
+    height: 105px;
 }
 
 .header .logo {
@@ -186,4 +186,36 @@
     padding: 0 5px;
     background: red;
     color: #fff
+}
+
+/* nav */
+nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+nav .dropdown .dt {
+    width: 210px;
+    height: 48px;
+    line-height: 45px;
+    background: #b1191a;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+nav .dropdown .dd {
+    width: 210px;
+    height: 467px;
+    background: #c81623;
+}
+
+nav .dropdown .dd ul li {
+    height: 31px;
+    line-height: 31px;
+    padding-left: 10px;
+}
+
+nav .dropdown .dd a {
+    color: #fff;
 }
