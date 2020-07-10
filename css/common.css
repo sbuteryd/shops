@@ -194,6 +194,10 @@ nav {
     border-bottom: 2px solid #b1191a;
 }
 
+nav .dropdown {
+    height: 48px;
+}
+
 nav .dropdown .dt {
     width: 210px;
     height: 48px;
@@ -211,11 +215,45 @@ nav .dropdown .dd {
 }
 
 nav .dropdown .dd ul li {
+    position: relative;
     height: 31px;
     line-height: 31px;
     padding-left: 10px;
 }
 
+nav .dropdown .dd ul li:hover {
+    background: #ffffff;
+}
+
+nav .dropdown .dd ul li:hover a {
+    color: #c81623
+}
+
 nav .dropdown .dd a {
-    color: #fff;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+nav .dropdown .dd a::after {
+    content: "\e902";
+    font-family: 'icomoon';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 10px;
+
+}
+
+/* navitems */
+.navitems ul li {
+    float: left;
+    height: 48px;
+    line-height: 48px;
+}
+
+.navitems ul li a {
+    padding: 0 20px;
+    font-size: 16px;
+    color: #333333;
+
 }
