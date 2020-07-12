@@ -257,3 +257,71 @@ nav .dropdown .dd a::after {
     color: #333333;
 
 }
+
+/* footer  */
+.footer {
+    padding-top: 30px;
+    height: 417px;
+    background: #f5f5f5;
+}
+
+.footer h5 {
+    float: left;
+    margin-right: 14px;
+    width: 50px;
+    height: 50px;
+    background: url('../images/wuliu.png') no-repeat;
+}
+
+.footer .search_txt {
+    float: left;
+}
+
+.mod_service {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+.mod_service ul li {
+    float: left;
+    width: 240px;
+}
+
+.mod_service ul li:last-child {
+    width: 190px;
+}
+
+.mod_service .search_txt {
+    margin-top: 5px;
+}
+
+.mod_service ul li img {
+    float: left;
+}
+
+.mod_help {
+    border-bottom: 1px solid #ccc;
+    padding-top: 16px;
+    padding-left: 50px;
+    padding-bottom: 33px;
+}
+
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+
+.mod_help dl:last-child {
+    width: 95px;
+}
+
+.mod_copyright {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.mod_copyright .links {
+    margin-bottom: 15px;
+    ;
+}
