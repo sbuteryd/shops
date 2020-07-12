@@ -172,6 +172,7 @@
 }
 
 .nav .dropdown {
+    display: none;
     width: 210px;
 }
 
@@ -223,3 +224,12 @@
 }
 
 /* nav end */
+
+/* footer start */
+.footer {
+    height: 416px;
+}
+
+.mod_servers {}
+
+/* footer end */
