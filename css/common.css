@@ -31,6 +31,14 @@
     width: 1200px;
 }
 
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
 .style_red {
     color: #c81623;
 }
@@ -39,7 +47,7 @@
 .shortcut {
     height: 31px;
     line-height: 31px;
-    background: pink;
+    background: #f1f1f1;
 }
 
 .shortcut .login {
@@ -64,3 +72,95 @@
 }
 
 /* 快捷导航 结束 */
+
+/* header start */
+.header {
+    position: relative;
+    height: 82px;
+    background: pink;
+}
+
+.logo {
+    position: absolute;
+    top: 26px;
+    width: 175px;
+    height: 56px;
+    line-height: 56px
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 347px;
+    height: 36px;
+}
+
+.search .int {
+    width: 539px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.search button {
+    border: none;
+    width: 82px;
+    height: 36px;
+    background: #b1191a;
+    color: #fff;
+    outline: none;
+}
+
+.hotwords {
+    position: absolute;
+    top: 68px;
+    left: 348px;
+}
+
+.hotwords ul li {
+    float: left;
+}
+
+.hotwords ul li a {
+    padding: 0 10px;
+}
+
+.card {
+    position: absolute;
+    top: 25px;
+    right: 63px;
+    text-align: center;
+}
+
+.card a {
+    display: block;
+    width: 142px;
+    height: 36px;
+    line-height: 36px;
+    background: #f7f7f7;
+}
+
+.card a::before {
+    content: "\e93a";
+    font-family: 'icomoon';
+    margin-right: 7px;
+}
+
+.card a::after {
+    content: "\e902";
+    font-family: 'icomoon';
+    margin-left: 7px;
+}
+
+.card .num {
+    position: absolute;
+    top: -7px;
+    left: 105px;
+    display: block;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    padding: 0 8px;
+    background: red;
+    color: #fff
+}
+
+/* header end  */
