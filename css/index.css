@@ -9,7 +9,6 @@
     /* margin-left: 221px; */
     width: 722px;
     height: 455px;
-    background: pink;
 }
 
 .new_flash {
@@ -160,6 +159,20 @@
 .jiadian .bd div {
     float: left;
     height: 360px;
+}
+
+.bd>div:nth-child(3) {
+    border-right: 1px solid #ccc
+}
+
+.bd .bb a {
+    display: block;
+    height: 180px;
+
+}
+
+.bd .bb a:first-child {
+    border-bottom: 1px solid #ccc;
 }
 
 /* jiadian end */
