@@ -1,0 +1,127 @@
+body {
+    height: 3000px;
+}
+
+.w {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.style-red {
+    color: #c81623
+}
+
+.logo {
+    border-bottom: 2px solid #b1191a;
+    height: 84px;
+    line-height: 84px;
+}
+
+/* register-area start */
+.register-area {
+    margin-top: 20px;
+    border: 1px solid #dfdfdf;
+    height: 522px;
+}
+
+.register-area .hd {
+    border-bottom: 1px solid #dddddd;
+    padding: 0 10px;
+    height: 41px;
+    line-height: 41px
+}
+
+.register-area .hd h4 {
+    float: left;
+    font-size: 18px;
+    color: #333333;
+}
+
+.register-area .hd a {
+    float: right;
+    font-size: 14px;
+    color: #333333;
+}
+
+.register-area .bd {
+    margin: 50px auto;
+    width: 549px;
+    height: 371px;
+    font-size: 14px;
+    color: #4c4c4c
+}
+
+.bd label {
+    display: inline-block;
+    width: 50px;
+    line-height: 36px;
+}
+
+.bd ul li {
+    margin-bottom: 20px;
+}
+
+.bd .int {
+    width: 240px;
+    height: 36px;
+}
+
+.bd .error {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../images/error.png');
+    vertical-align: middle
+}
+
+.save {
+    /* 这个每次和ps 的之不一样为什么 166 */
+    padding-left: 138px;
+    font-size: 12px;
+}
+
+.save i {
+    padding: 0 10px;
+    color: #fff;
+}
+
+.ruo {
+    background: #de1111;
+}
+
+.zhong {
+    background: #40b83f;
+}
+
+.qiang {
+    background: #f79100;
+}
+
+.agre_area {
+    padding-left: 52px
+}
+
+.agre-txt {
+    padding-left: 3px;
+}
+
+.agre_area .agre {
+    color: #1ba1e6;
+}
+
+.submit-area {
+    padding-left: 80px;
+
+}
+
+.submit {
+    display: block;
+    width: 201px;
+    height: 33px;
+    background: #c81623;
+    font-size: 14px;
+    color: #fff;
+    outline: none;
+}
+
+/* register-area end */
