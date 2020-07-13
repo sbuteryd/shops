@@ -228,8 +228,56 @@
 /* footer start */
 .footer {
     height: 416px;
+    background: #f5f5f5;
 }
 
-.mod_servers {}
+.mod_servers {
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_servers ul li {
+    float: left;
+    width: 240px;
+}
+
+.mod_servers ul li img {
+    float: left;
+    padding-right: 6px;
+    vertical-align: middle;
+}
+
+.mod_servers ul li h4 {
+    margin-top: 10px;
+}
+
+.mod_help {
+    padding-top: 22px;
+}
+
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+
+.mod_copyright {
+    padding-top: 20px;
+}
+
+.mod_copyright .links {
+    text-align: center;
+}
+
+.links a {
+    padding: 0 15px
+}
+
+.mod_copyright .copy_right {
+    text-align: center;
+}
+
+.copy_right {
+    padding-top: 15px;
+}
 
 /* footer end */
