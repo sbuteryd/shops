@@ -1,0 +1,92 @@
+/* focus start */
+.main {}
+
+.focus {
+    float: left;
+    margin-top: 9px;
+    margin-left: 10px;
+    /* 这里为什么不可以用221px ?????????????*/
+    /* margin-left: 221px; */
+    width: 722px;
+    height: 455px;
+    background: pink;
+}
+
+.new_flash {
+    float: left;
+    margin-left: 6px;
+    margin-top: 9px;
+    border: 1px solid #e4e4e4;
+    width: 251px;
+    height: 455px;
+}
+
+.news .hd {
+    border-bottom: 1px dotted #ccc;
+    padding: 0 15px;
+    height: 34px;
+    line-height: 34px
+}
+
+.news .bd {
+    padding: 5px 15px;
+    border-bottom: 1px solid #ccc;
+    height: 131px;
+}
+
+.news .bd ul li {
+    height: 25px;
+    line-height: 25px;
+}
+
+.news .bd ul li a {
+    font-size: 14px;
+}
+
+.news .hd h4 {
+    float: left;
+    font-size: 14px;
+}
+
+.news .hd a {
+    float: right;
+    font-size: 14px;
+}
+
+.news_service {
+    border-bottom: 1px solid #ccc;
+    width: 248px;
+    height: 208px;
+    overflow: hidden;
+}
+
+.news_service ul {
+    width: 252px;
+}
+
+.news_service ul li {
+    float: left;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-top: none;
+    width: 63px;
+    height: 71px;
+    text-align: center
+}
+
+.news_service .icon-bg {
+    display: inline-block;
+    margin-top: 12px;
+    width: 20px;
+    height: 25px;
+    text-align: center;
+    background: url('/images/icons.png') no-repeat -18px -16px;
+}
+
+.news_service ul li span {
+    display: block;
+}
+
+.news_discount {}
+
+/* focus end */

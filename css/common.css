@@ -172,7 +172,6 @@
 }
 
 .nav .dropdown {
-    display: none;
     width: 210px;
 }
 
@@ -224,6 +223,8 @@
 }
 
 /* nav end */
+
+
 
 /* footer start */
 .footer {
