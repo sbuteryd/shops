@@ -87,13 +87,16 @@
     display: block;
 }
 
+/* focus end */
 
+/* .recommd  start */
 .recommd {
     margin-top: 11px;
 }
 
 .recommd ul li {
     float: left;
+    height: 165px;
     position: relative
 }
 
@@ -113,7 +116,50 @@
     border-right: 1px solid #ccc;
     width: 1px;
     height: 143px;
-
 }
 
-/* focus end */
+/* recommd  end */
+/* jiadian start */
+.jiadian .hd {
+    border-bottom: 1px solid #c81623;
+    height: 30px;
+    line-height: 30px
+}
+
+.jiadian .hd ul li {
+    float: left;
+}
+
+.jiadian .hd ul li a {
+    padding: 0 7px;
+}
+
+.col-210 {
+    width: 210px;
+    background: #f9f9f9;
+}
+
+.col-330 {
+    width: 330px;
+}
+
+.col-220 {
+    width: 220px;
+}
+
+.col-210 ul li {
+    float: left;
+    margin: 0 6px;
+    border-bottom: 1px solid #ededed;
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.jiadian .bd div {
+    float: left;
+    height: 360px;
+}
+
+/* jiadian end */
