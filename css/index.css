@@ -171,8 +171,16 @@
 
 }
 
-.bd .bb a:first-child {
+.bd .bb {
     border-bottom: 1px solid #ccc;
+}
+
+.bd .bb ul li:first-child {
+    border-bottom: 1px solid #ccc;
+}
+
+.bd div:last-child {
+    border-left: 1px solid #ccc;
 }
 
 /* jiadian end */
