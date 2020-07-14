@@ -49,7 +49,7 @@
 .bd ul li {
     float: left;
     margin-left: 10px;
-    border: 0;
+    border: 1px solid transparent;
     width: 290px;
     height: 461px;
     overflow: hidden;
