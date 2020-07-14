@@ -5,8 +5,8 @@
     float: left;
     margin-top: 9px;
     margin-left: 10px;
-    /* 这里为什么不可以用221px ?????????????*/
-    /* margin-left: 221px; */
+    /* 这里为什么不可以用221px 因为drowdown 没有高一个小的高度 ?????????????*/
+    margin-left: 221px;
     width: 722px;
     height: 455px;
 }
@@ -165,13 +165,8 @@
     border-right: 1px solid #ccc
 }
 
-.bd .bb a {
-    display: block;
-    height: 180px;
-
-}
-
 .bd .bb {
+    display: block;
     border-bottom: 1px solid #ccc;
 }
 
