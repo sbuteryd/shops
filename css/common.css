@@ -91,20 +91,23 @@
     position: absolute;
     top: 25px;
     left: 347px;
-    height: 36px;
+    border: 2px solid #b1191a;
+    height: 37px;
 }
 
 .search .int {
+    border: 0;
     padding-left: 10px;
     width: 539px;
-    height: 36px;
+    height: 31px;
     line-height: 36px;
+    outline: none;
 }
 
 .search button {
     border: none;
     width: 82px;
-    height: 36px;
+    height: 33px;
     background: #b1191a;
     color: #fff;
     outline: none;
