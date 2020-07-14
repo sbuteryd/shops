@@ -191,22 +191,30 @@
 
 .dropdown dd {
     padding: 8px 0;
-    height: 456px;
+    height: 464px;
     background: #c81623;
     color: #fff
 }
 
 .dropdown dd ul li {
+    position: relative;
     margin-left: 1px;
     padding-left: 8px;
-    height: 31px;
-    line-height: 31px;
+    height: 30px;
+    line-height: 30px;
 }
 
 .dropdown dd ul li:hover,
 .dropdown dd ul li:hover a {
     background: #fff;
     color: #c81623
+}
+
+.dropdown dd ul li::after {
+    content: '\e902';
+    font-family: 'icomoon';
+    position: absolute;
+    right: 10px;
 }
 
 .dropdown dd a {
