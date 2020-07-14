@@ -53,12 +53,18 @@ body {
 
 .bd label {
     display: inline-block;
-    width: 50px;
+    text-align: right;
+    width: 80px;
     line-height: 36px;
 }
 
 .bd ul li {
     margin-bottom: 20px;
+}
+
+.bd span {
+    font-size: 12px;
+    color: #df3033;
 }
 
 .bd .int {
@@ -75,8 +81,9 @@ body {
 }
 
 .save {
-    /* 这个每次和ps 的之不一样为什么 166 */
-    padding-left: 138px;
+    /* 这个每次和ps 的之不一样为什么 166  字体大小 和 lable*/
+    /* lable 尺寸错误导致 */
+    padding-left: 168px;
     font-size: 12px;
 }
 
@@ -98,7 +105,7 @@ body {
 }
 
 .agre_area {
-    padding-left: 52px
+    padding-left: 83px
 }
 
 .agre-txt {
@@ -122,6 +129,23 @@ body {
     font-size: 14px;
     color: #fff;
     outline: none;
+    border: none;
 }
 
 /* register-area end */
+
+/* copyright start */
+footer {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.links a {
+    padding: 0 15px
+}
+
+.copyright {
+    margin-top: 15px;
+}
+
+/* copyright end */
